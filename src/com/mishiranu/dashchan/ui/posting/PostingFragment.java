@@ -88,6 +88,8 @@ import com.mishiranu.dashchan.widget.ExpandedLayout;
 import com.mishiranu.dashchan.widget.ProgressDialog;
 import com.mishiranu.dashchan.widget.ThemeEngine;
 import com.mishiranu.dashchan.widget.ViewFactory;
+
+import java.lang.ref.PhantomReference;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -272,6 +274,7 @@ public class PostingFragment extends ContentFragment implements FragmentHandler.
 			tripcodeWarning.setPadding((int) (12f * density), (int) (4f * density),
 					(int) (12f * density), (int) (4f * density));
 		}
+		nameView.setText(Preferences.getDefaultChosenName());
 		nameView.addTextChangedListener(new NameEditWatcher(postingConfiguration.allowName &&
 				!postingConfiguration.allowTripcode, nameView, tripcodeWarning, () -> resizeComment(true)));
 		ViewUtils.applyMonospaceTypeface(passwordView);

@@ -943,6 +943,13 @@ public class Preferences {
 		return password;
 	}
 
+	public static final String DEFAULT_NAME = "default_name";
+	public static final String DEFAULT_DEFAULT_NAME = "";
+
+	public static String getDefaultChosenName(){
+		return PREFERENCES.getString(DEFAULT_NAME, DEFAULT_DEFAULT_NAME);
+	}
+
 	public static final String KEY_POST_MAX_LINES = "post_max_lines";
 	public static final String DEFAULT_POST_MAX_LINES = "20";
 

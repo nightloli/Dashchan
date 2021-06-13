@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<string name="default_name">Имя используемое по умолчанию</string>
 	<string name="unique_hash_setting">Уникальный хэш по-умолчанию</string>
 	<string name="unique_hash_setting_detailed">Всегда загружает картинку с уникальным хэшем</string>
 	<string name="about">О программе</string>

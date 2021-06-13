@@ -79,6 +79,7 @@ public class InterfaceFragment extends PreferenceFragment {
 				R.string.display_post_icons, R.string.display_post_icons__summary);
 
 		addHeader(R.string.submission_form);
+		addEdit(Preferences.DEFAULT_NAME, Preferences.DEFAULT_DEFAULT_NAME, R.string.default_name, "", InputType.TYPE_CLASS_TEXT);
 		addCheck(true, Preferences.KEY_HIDE_PERSONAL_DATA,
 				Preferences.DEFAULT_HIDE_PERSONAL_DATA, R.string.hide_personal_data_block, 0);
 		addCheck(true, Preferences.KEY_HUGE_CAPTCHA, Preferences.DEFAULT_HUGE_CAPTCHA,
