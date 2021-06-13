@@ -12,6 +12,7 @@ import chan.text.JsonSerial;
 import chan.text.ParseException;
 import chan.util.StringUtils;
 import com.mishiranu.dashchan.content.MainApplication;
+import com.mishiranu.dashchan.content.Preferences;
 import com.mishiranu.dashchan.content.async.ReadCaptchaTask;
 import com.mishiranu.dashchan.content.model.FileHolder;
 import com.mishiranu.dashchan.util.GraphicsUtils;
@@ -685,7 +686,7 @@ public class DraftsStorage extends StorageManager.Storage<Pair<List<DraftsStorag
 			String hash = null;
 			String name = null;
 			String rating = null;
-			boolean optionUniqueHash = false;
+			boolean optionUniqueHash = Preferences.isUniqueHash();
 			boolean optionRemoveMetadata = false;
 			boolean optionRemoveFileName = false;
 			boolean optionSpoiler = false;

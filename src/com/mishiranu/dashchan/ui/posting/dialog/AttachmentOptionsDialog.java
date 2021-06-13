@@ -18,6 +18,7 @@ import androidx.fragment.app.DialogFragment;
 import chan.content.ChanConfiguration;
 import com.mishiranu.dashchan.C;
 import com.mishiranu.dashchan.R;
+import com.mishiranu.dashchan.content.Preferences;
 import com.mishiranu.dashchan.content.model.FileHolder;
 import com.mishiranu.dashchan.content.storage.DraftsStorage;
 import com.mishiranu.dashchan.graphics.TransparentTileDrawable;
@@ -107,7 +108,7 @@ public class AttachmentOptionsDialog extends DialogFragment implements AdapterVi
 		optionItems.clear();
 		optionIndices.clear();
 		optionItems.add(new OptionItem(getString(R.string.unique_hash), Type.UNIQUE_HASH,
-				holder.optionUniqueHash));
+				Preferences.isUniqueHash()));
 		optionIndices.put(Type.UNIQUE_HASH, index++);
 		if (GraphicsUtils.canRemoveMetadata(fileHolder)) {
 			optionItems.add(new OptionItem(getString(R.string.remove_metadata), Type.REMOVE_METADATA,

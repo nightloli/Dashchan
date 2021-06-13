@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+	<string name="unique_hash_setting">Unique hash by default</string>
+	<string name="unique_hash_setting_detailed">Always uploads images with unique hash</string>
 	<string name="__colon_format">%1$s: %2$s</string>
 	<string name="__enumeration_format">%1$s, %2$s</string>
 	<string name="about">About</string>

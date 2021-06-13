@@ -658,7 +658,7 @@ public class PostingFragment extends ContentFragment implements FragmentHandler.
 			attachmentDrafts = new ArrayList<>(attachments.size());
 			for (AttachmentHolder holder : attachments) {
 				attachmentDrafts.add(new DraftsStorage.AttachmentDraft(holder.hash, holder.name, holder.rating,
-						holder.optionUniqueHash, holder.optionRemoveMetadata, holder.optionRemoveFileName,
+						Preferences.isUniqueHash(), holder.optionRemoveMetadata, holder.optionRemoveFileName,
 						holder.optionSpoiler, holder.reencoding));
 			}
 		}
@@ -1036,7 +1036,7 @@ public class PostingFragment extends ContentFragment implements FragmentHandler.
 			FileHolder fileHolder = draftsStorage.getAttachmentDraftFileHolder(data.hash);
 			if (fileHolder != null) {
 				array.add(new ChanPerformer.SendPostData.Attachment(fileHolder, data.name, rating,
-						data.optionUniqueHash, data.optionRemoveMetadata, data.optionRemoveFileName,
+						Preferences.isUniqueHash(), data.optionRemoveMetadata, data.optionRemoveFileName,
 						postingConfiguration.attachmentSpoiler && data.optionSpoiler, data.reencoding));
 			}
 		}
@@ -1509,7 +1509,7 @@ public class PostingFragment extends ContentFragment implements FragmentHandler.
 	}
 
 	private void addAttachment(String hash, String name) {
-		addAttachment(hash, name, null, false, false, false, false, null);
+		addAttachment(hash, name, null, Preferences.isUniqueHash(), false, false, false, null);
 	}
 
 	private void addAttachment(String hash, String name, String rating, boolean optionUniqueHash,

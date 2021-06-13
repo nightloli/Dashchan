@@ -3,6 +3,8 @@ package com.mishiranu.dashchan.ui.posting;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.mishiranu.dashchan.content.Preferences;
 import com.mishiranu.dashchan.util.GraphicsUtils;
 
 public class AttachmentHolder {
@@ -16,7 +18,7 @@ public class AttachmentHolder {
 	public String hash;
 	public String name;
 	public String rating;
-	public boolean optionUniqueHash = false;
+	public boolean optionUniqueHash = Preferences.isUniqueHash();
 	public boolean optionRemoveMetadata = false;
 	public boolean optionRemoveFileName = false;
 	public boolean optionSpoiler = false;

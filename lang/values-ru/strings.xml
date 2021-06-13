@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+	<string name="unique_hash_setting">Уникальный хэш по-умолчанию</string>
+	<string name="unique_hash_setting_detailed">Всегда загружает картинку с уникальным хэшем</string>
 	<string name="about">О программе</string>
 	<string name="action_on_playback_completion">Действие при завершении воспроизведения</string>
 	<string name="active_scrollbar">Активная полоса прокрутки</string>

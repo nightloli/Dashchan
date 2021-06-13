@@ -64,6 +64,7 @@ public class MediaFragment extends PreferenceFragment implements FragmentHandler
 		addList(Preferences.KEY_LOAD_NEAREST_IMAGE, enumList(Preferences.NetworkMode.values(), v -> v.value),
 				Preferences.DEFAULT_LOAD_NEAREST_IMAGE.value, R.string.load_nearest_image,
 				enumResList(Preferences.NetworkMode.values(), v -> v.titleResId));
+		addCheck(true, Preferences.KEY_DEF_UNIQUE_HASH, Preferences.DEFAULT_UNIQUE_HASH, R.string.unique_hash_setting, R.string.unique_hash_setting_detailed);
 
 		addHeader(R.string.downloads);
 		addCheck(true, Preferences.KEY_DOWNLOAD_DETAIL_NAME, Preferences.DEFAULT_DOWNLOAD_DETAIL_NAME,

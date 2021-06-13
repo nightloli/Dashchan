@@ -525,6 +525,13 @@ public class Preferences {
 		PREFERENCES.edit().put(KEY_DOMAIN.bind(chan.name), domain).close();
 	}
 
+	public static final String KEY_DEF_UNIQUE_HASH = "unique_hash_setting";
+	public static final boolean DEFAULT_UNIQUE_HASH = false;
+
+	public static boolean isUniqueHash() {
+		return PREFERENCES.getBoolean(KEY_DEF_UNIQUE_HASH, DEFAULT_UNIQUE_HASH);
+	}
+
 	public static final String KEY_DOWNLOAD_DETAIL_NAME = "download_detail_name";
 	public static final boolean DEFAULT_DOWNLOAD_DETAIL_NAME = false;
 
