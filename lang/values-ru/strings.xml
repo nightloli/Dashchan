@@ -155,6 +155,7 @@
 	<string name="favorites_first">Сначала избранное</string>
 	<string name="favorites_watcher">Отслеживание избранного</string>
 	<string name="fields_limit_exceeded">Превышение лимита полей</string>
+	<string name="file_contains_data__format_sentence">Данный файл содержит следующие данные: %s.</string>
 	<string name="file_format_is_not_supported">Формат файла не поддерживается</string>
 	<string name="file_name__format">Файл %s</string>
 	<string name="filed_on">Выдан</string>
@@ -166,6 +167,8 @@
 	<string name="find_in_file_names">Искать в названиях файлов</string>
 	<string name="find_in_names">Искать в именах</string>
 	<string name="find_in_subjects">Искать в темах</string>
+	<string name="firewall_block__format_sentence">Ваш IP-адрес заблокирован %s. Введите капчу,
+		чтобы пройти проверку.</string>
 	<string name="flags_are_enabled">Флаги включены</string>
 	<string name="follow_the_link__sentence">Перейти по ссылке?</string>
 	<string name="forum">Форум</string>
@@ -196,7 +199,6 @@
 	<string name="history_is_empty">История пуста</string>
 	<string name="huge_captcha">Большая капча</string>
 	<string name="icons_are_enabled">Иконки включены</string>
-	<string name="image_contains_data__format_sentence">Данное изображение содержит следующие данные: %s.</string>
 	<string name="image_is_corrupted">Изображение повреждено</string>
 	<string name="images">Изображения</string>
 	<string name="images_are_disabled">Картинки отключены</string>
@@ -241,6 +243,7 @@
 	<string name="merge_pages">Объединить страницы</string>
 	<string name="merge_pages__summary">Отображать страницы для всех форумов</string>
 	<string name="message_data">Данные сообщения</string>
+	<string name="metadata">Метаданные</string>
 	<string name="minimize">Свернуть</string>
 	<string name="more_info">Подробнее</string>
 	<string name="more_themes">Больше тем</string>
@@ -389,8 +392,6 @@
 	<string name="refresh_open_thread">Обновление открытого треда</string>
 	<string name="regular_expression">Регулярное выражение</string>
 	<string name="rejected_words">Отклонённые слова</string>
-	<string name="relay_block__format_sentence">Ваш IP-адрес заблокирован %s. Введите капчу,
-		чтобы пройти проверку.</string>
 	<string name="reload">Перезагрузить</string>
 	<string name="remember_history">Запоминать историю</string>
 	<string name="remove_file_name">Удалить имя файла</string>
@@ -481,7 +482,6 @@
 	<string name="submission_form">Форма отправки</string>
 	<string name="success_number_not_loaded_number__format">Успешно: %1$d, не загружено: %2$d</string>
 	<string name="summary">Информация</string>
-	<string name="technical_info">Технич. информация</string>
 	<string name="test_string">Тестовая строка</string>
 	<string name="text_scale">Масштаб текста</string>
 	<string name="themes">Темы</string>

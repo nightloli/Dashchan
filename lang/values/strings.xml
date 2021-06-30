@@ -155,6 +155,7 @@
 	<string name="favorites_first">Favorites first</string>
 	<string name="favorites_watcher">Favorites watcher</string>
 	<string name="fields_limit_exceeded">Fields limit exceeded</string>
+	<string name="file_contains_data__format_sentence">This file contains the following data: %s.</string>
 	<string name="file_format_is_not_supported">File format is not supported</string>
 	<string name="file_name__format">File %s</string>
 	<string name="filed_on">Filed on</string>
@@ -166,6 +167,8 @@
 	<string name="find_in_file_names">Find in file names</string>
 	<string name="find_in_names">Find in names</string>
 	<string name="find_in_subjects">Find in subjects</string>
+	<string name="firewall_block__format_sentence">%s has blocked your IP address. Enter the captcha to pass
+		the verification.</string>
 	<string name="flags_are_enabled">Flags are enabled</string>
 	<string name="follow_the_link__sentence">Follow the link?</string>
 	<string name="forum">Forum</string>
@@ -196,7 +199,6 @@
 	<string name="history_is_empty">History is empty</string>
 	<string name="huge_captcha">Huge captcha</string>
 	<string name="icons_are_enabled">Icons are enabled</string>
-	<string name="image_contains_data__format_sentence">This image contains the following data: %s.</string>
 	<string name="image_is_corrupted">Image is corrupted</string>
 	<string name="images">Images</string>
 	<string name="images_are_disabled">Images are disabled</string>
@@ -240,6 +242,7 @@
 	<string name="merge_pages">Merge pages</string>
 	<string name="merge_pages__summary">Display pages for all forums</string>
 	<string name="message_data">Message data</string>
+	<string name="metadata">Metadata</string>
 	<string name="minimize">Minimize</string>
 	<string name="more_info">More info</string>
 	<string name="more_themes">More themes</string>
@@ -371,8 +374,6 @@
 	<string name="refresh_open_thread">Refresh open thread</string>
 	<string name="regular_expression">Regular expression</string>
 	<string name="rejected_words">Rejected words</string>
-	<string name="relay_block__format_sentence">%s has blocked your IP address. Enter the captcha to pass
-		the verification.</string>
 	<string name="reload">Reload</string>
 	<string name="remember_history">Remember history</string>
 	<string name="remove_file_name">Remove file name</string>
@@ -462,7 +463,6 @@
 	<string name="submission_form">Submission form</string>
 	<string name="success_number_not_loaded_number__format">Success: %1$d, not loaded: %2$d</string>
 	<string name="summary">Summary</string>
-	<string name="technical_info">Technical info</string>
 	<string name="test_string">Test string</string>
 	<string name="text_scale">Text scale</string>
 	<string name="themes">Themes</string>
